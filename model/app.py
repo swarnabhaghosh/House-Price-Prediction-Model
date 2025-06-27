@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained pipeline model
-with open("model/price_prediction_model.pkl", "rb") as f:
+with open("price_prediction_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Title
